@@ -25,7 +25,7 @@
     <!-- nav -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top theme_shadow" style="background-color: #fcfffd">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img src="./assets/img/mony_logo.png" alt="" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
               <a class="nav-link active" href="./faq.html">FAQ</a>
             </li>
           </ul>
-          <a href="#" class="btn btn-success ms-lg-3">Login</a>
+          <a href="https://balance.anadana.com" class="btn button ms-lg-3">Login</a>
         </div>
       </div>
     </nav>
@@ -60,7 +60,7 @@
     <!-- stage -->
     <section id="question-content">
       <div class="container">
-        <div id="menubar_faq" class="row">
+        <div id="menubar_faq" class="row" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <ul class="theme_shadow">
               <li class="active" onclick="akun()"><a href="#menubar_faq">Akun</a></li>
               <li onclick="keunggulan()"><a href="#menubar_faq">Keunggulan</a></li>
@@ -72,16 +72,16 @@
           <div class="col-lg-2 text-center align-items-center">
             <div id="sidebar_faq">
               <div class="frame">
-                <ul>
-                  <li class="active" onclick="akun()"><a href="#stage">Akun</a></li>
-                  <li class="mt-4" onclick="keunggulan()"><a href="#stage">Keunggulan</a></li>
-                  <li class="mt-4" onclick="merchant()"><a href="#stage">Merchant</a></li>
-                  <li class="mt-4" onclick="keamanan()"><a href="#stage">Keamanan</a></li>
+                <ul data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                  <li class="active" onclick="akun()"><a href="#stage" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Akun</a></li>
+                  <li class="mt-4" onclick="keunggulan()"><a href="#stage" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Keunggulan</a></li>
+                  <li class="mt-4" onclick="merchant()"><a href="#stage" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Merchant</a></li>
+                  <li class="mt-4" onclick="keamanan()"><a href="#stage" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">Keamanan</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div id="question" class="col-lg-10 content pb-5">
+          <div id="question" class="col-lg-10 content pb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <!-- FAQ-Akun -->
             <div id="faq-akun">
               <h1>Akun</h1>
@@ -267,13 +267,16 @@
                 <span class="line"></span>
               </ol>
             </div>
-            <div class="pt-5">
-              <h3 class="fw-bold">Belum menemukan yang anda cari ?</h3>
+            <div class="bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="">
+                <h3 class="fw-bold mb-3">Belum menemukan yang anda cari ?</h3>
+              </div>
+              <div class="button-faq text-center">
+                <button class="button me-3"><i class="fas fa-phone-alt"></i> Telephone Kami</button>
+                <button class="button"><i class="fas fa-envelope"></i> Email Kami</button>
+              </div>
             </div>
-            <div class="button-faq text-center">
-              <a class="btn btn-success mt-3" href="#" role="button"><i class="fas fa-phone-alt"></i> Telepon Kami</a>
-              <a class="btn btn-outline-secondary mt-3 ms-3" href="#" role="button"><i class="fas fa-envelope"></i> Email Kami</a>
-            </div>
+ 
           </div>
         </div>
       </div>
